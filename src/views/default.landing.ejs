@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="<%= language_key %>">
+
+<head>
+  <title>
+    <%= i18n.pageTitle[language_key] %>
+  </title>
+  <link rel="icon" type="favicon" href="/images/logo.svg">
+  <meta name="description" content="<%= i18n.pageDescription[language_key] %>" />
+  <meta name="keywords" content="<%= i18n.pageKeywords[language_key] %>" />
+  <link rel="stylesheet" href="/css/landing/default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+  <%- include('./partials/head') %>
+</head>
+
+<body>
+  <%- include('./partials/header') %>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge">
+            <i class="material-symbols-outlined icon">verified</i>
+            <%= i18n.heroBadge[language_key] %>
+          </span>
+          <h1>
+            <%- i18n.heroTitle[language_key] %>
+          </h1>
+          <p>
+            <%= i18n.heroDescription[language_key] %>
+          </p>
+          <div class="buttons">
+            <a href="/app" class="btn">
+              <%- i18n.heroStartButton[language_key] %>
+                <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/images/storyset/hero.svg" alt="hero-image" width="375" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container swiper">
+        <ul class="feature-cards swiper-wrapper">
+          <li class="feature-card swiper-slide">
+            <i class="material-symbols-outlined icon">bolt</i>
+            <strong class="feature-title">
+              Hızlı Özgeçmiş Oluşturma
+            </strong>
+            <p>Zaman kaybetmeden mükemmel bir özgeçmiş oluşturun.</p>
+            <a href="/" class="btn">
+              Daha fazla
+              <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </li>
+          <li class="feature-card swiper-slide">
+            <i class="material-symbols-outlined icon">speed</i>
+            <strong class="feature-title">
+              ATS Uyumlu Özgeçmişler
+            </strong>
+            <p>Başvurularınızı ATS’lere uyumlu hale getirin, dikkat çekin!</p>
+            <a href="/" class="btn">
+              Daha fazla
+              <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </li>
+          <li class="feature-card swiper-slide">
+            <i class="material-symbols-outlined icon">description</i>
+            <strong class="feature-title">
+              Profesyonel Kapak Mektupları
+            </strong>
+            <p>İşverenleri etkileyen özel kapak mektupları hazırlayın.</p>
+            <a href="/" class="btn">
+              Daha fazla
+              <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </li>
+          <li class="feature-card swiper-slide">
+            <i class="material-symbols-outlined icon">description</i>
+            <strong class="feature-title">
+              Kolay İstifa Dilekçesi
+            </strong>
+            <p>Saygılı ve profesyonel bir şekilde veda edin.</p>
+            <a href="/" class="btn">
+              Daha fazla
+              <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </li>
+          <li class="feature-card swiper-slide">
+            <i class="material-symbols-outlined icon">note_stack</i>
+            <strong class="feature-title">
+              Etklieyici Şablon Seçenekleri
+            </strong>
+            <p>Sektörünüze uygun şablonlarla profesyonel görünün.</p>
+            <a href="/" class="btn">
+              Daha fazla
+              <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </li>
+          <li class="feature-card swiper-slide">
+            <i class="material-symbols-outlined icon">cloud_download</i>
+            <strong class="feature-title">
+              Kolay Paylaşım ve İndirme
+            </strong>
+            <p>Özgeçmişinizi hızla paylaşın veya indirin.</p>
+            <a href="/" class="btn">
+              Daha fazla
+              <i class="material-symbols-outlined icon">arrow_right_alt</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 5000
+        },
+      });
+    </script>
+    <%- include('./partials/scripts') %>
+</body>
+
+</html>

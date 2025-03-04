@@ -1,0 +1,267 @@
+{
+  "emailVerificationSubject": {
+    "tr": "Hesabınızı Doğrulayın",
+    "en": "Verify Your Account",
+    "es": "Verifica Tu Cuenta",
+    "fr": "Vérifiez Votre Compte",
+    "de": "Bestätigen Sie Ihr Konto",
+    "it": "Verifica Il Tuo Account"
+  },
+  "emailVerificationContent": {
+    "tr": {
+      "greeting": "Merhaba,",
+      "body1": "Putcv.com hesabınızı aktif hale getirmek için aşağıdaki bağlantıya tıklayın.",
+      "body2": "Bu işlem hesabınızın güvenliğini sağlar ve hizmetlerimize tam erişim elde etmenizi mümkün kılar.",
+      "linkContent": "DOĞRULA",
+      "footer1": "Bağlantının geçerlilik süresi 24 saattir.",
+      "footer2": "Bu süre içerisinde doğrulama yapmadığınız takdirde lütfen yeni bir doğrulama isteğinde bulunun.",
+      "closing": "Putcv.com Ekibi"
+    },
+    "en": {
+      "greeting": "Hello,",
+      "body1": "To activate your Putcv.com account, please click on the link below.",
+      "body2": "This ensures the security of your account and grants full access to our services.",
+      "linkContent": "VERIFY",
+      "footer1": "The link is valid for 24 hours.",
+      "footer2": "If you do not complete the verification within this time, please request a new verification link.",
+      "closing": "Putcv.com Team"
+    },
+    "es": {
+      "greeting": "Hola,",
+      "body1": "Para activar tu cuenta de Putcv.com, haz clic en el enlace a continuación.",
+      "body2": "Esto asegura la seguridad de tu cuenta y te otorga acceso completo a nuestros servicios.",
+      "linkContent": "VERIFICAR",
+      "footer1": "El enlace es válido por 24 horas.",
+      "footer2": "Si no completas la verificación dentro de este tiempo, solicita un nuevo enlace de verificación.",
+      "closing": "Equipo de Putcv.com"
+    },
+    "fr": {
+      "greeting": "Bonjour,",
+      "body1": "Pour activer votre compte Putcv.com, veuillez cliquer sur le lien ci-dessous.",
+      "body2": "Cela garantit la sécurité de votre compte et vous donne un accès complet à nos services.",
+      "linkContent": "VÉRIFIER",
+      "footer1": "Le lien est valable pendant 24 heures.",
+      "footer2": "Si vous ne complétez pas la vérification dans ce délai, veuillez demander un nouveau lien de vérification.",
+      "closing": "Équipe Putcv.com"
+    },
+    "de": {
+      "greeting": "Hallo,",
+      "body1": "Um Ihr Putcv.com-Konto zu aktivieren, klicken Sie bitte auf den unten stehenden Link.",
+      "body2": "Dies gewährleistet die Sicherheit Ihres Kontos und bietet Ihnen vollen Zugriff auf unsere Dienste.",
+      "linkContent": "BESTÄTIGEN",
+      "footer1": "Der Link ist 24 Stunden gültig.",
+      "footer2": "Wenn Sie die Verifizierung in dieser Zeit nicht abschließen, fordern Sie bitte einen neuen Verifizierungslink an.",
+      "closing": "Ihr Putcv.com-Team"
+    },
+    "it": {
+      "greeting": "Ciao,",
+      "body1": "Per attivare il tuo account Putcv.com, clicca sul link qui sotto.",
+      "body2": "Questo garantisce la sicurezza del tuo account e ti concede pieno accesso ai nostri servizi.",
+      "linkContent": "VERIFICA",
+      "footer1": "Il link è valido per 24 ore.",
+      "footer2": "Se non completi la verifica entro questo periodo, richiedi un nuovo link di verifica.",
+      "closing": "Il Team di Putcv.com"
+    }
+  },
+  "resetPasswordSubject": {
+    "tr": "Şifrenizi Sıfırlayın",
+    "en": "Reset Your Password",
+    "es": "Restablece Tu Contraseña",
+    "fr": "Réinitialisez Votre Mot de Passe",
+    "de": "Setzen Sie Ihr Passwort Zurück",
+    "it": "Reimposta La Tua Password"
+  },
+  "resetPasswordContent": {
+    "tr": {
+      "greeting": "Merhaba,",
+      "body1": "Putcv.com hesabınızın şifresini sıfırlamak için aşağıdaki bağlantıya tıklayın.",
+      "body2": "Bu işlem hesabınızın güvenliğini sağlar ve hesabınıza yeniden erişim sağlar.",
+      "linkContent": "ŞİFREYİ SIFIRLA",
+      "footer1": "Bağlantının geçerlilik süresi 1 saattir.",
+      "footer2": "Bu süre içerisinde şifre sıfırlama işlemini tamamlamazsanız, lütfen yeni bir sıfırlama isteğinde bulunun.",
+      "closing": "Putcv.com Ekibi"
+    },
+    "en": {
+      "greeting": "Hello,",
+      "body1": "To reset your Putcv.com account password, please click on the link below.",
+      "body2": "This ensures the security of your account and restores access to it.",
+      "linkContent": "RESET PASSWORD",
+      "footer1": "The link is valid for 1 hours.",
+      "footer2": "If you do not complete the reset process within this time, please request a new reset link.",
+      "closing": "Putcv.com Team"
+    },
+    "es": {
+      "greeting": "Hola,",
+      "body1": "Para restablecer la contraseña de tu cuenta de Putcv.com, haz clic en el enlace a continuación.",
+      "body2": "Esto asegura la seguridad de tu cuenta y restaura el acceso a ella.",
+      "linkContent": "RESTABLECER CONTRASEÑA",
+      "footer1": "El enlace es válido por 1 horas.",
+      "footer2": "Si no completas el proceso de restablecimiento dentro de este tiempo, solicita un nuevo enlace de restablecimiento.",
+      "closing": "Equipo de Putcv.com"
+    },
+    "fr": {
+      "greeting": "Bonjour,",
+      "body1": "Pour réinitialiser le mot de passe de votre compte Putcv.com, veuillez cliquer sur le lien ci-dessous.",
+      "body2": "Cela garantit la sécurité de votre compte et rétablit l'accès à celui-ci.",
+      "linkContent": "RÉINITIALISER LE MOT DE PASSE",
+      "footer1": "Le lien est valable pendant 1 heures.",
+      "footer2": "Si vous ne complétez pas le processus de réinitialisation dans ce délai, veuillez demander un nouveau lien de réinitialisation.",
+      "closing": "Équipe Putcv.com"
+    },
+    "de": {
+      "greeting": "Hallo,",
+      "body1": "Um das Passwort Ihres Putcv.com-Kontos zurückzusetzen, klicken Sie bitte auf den unten stehenden Link.",
+      "body2": "Dies gewährleistet die Sicherheit Ihres Kontos und stellt den Zugang wieder her.",
+      "linkContent": "PASSWORT ZURÜCKSETZEN",
+      "footer1": "Der Link ist 1 Stunden gültig.",
+      "footer2": "Wenn Sie den Zurücksetzungsprozess in dieser Zeit nicht abschließen, fordern Sie bitte einen neuen Zurücksetzungslink an.",
+      "closing": "Ihr Putcv.com-Team"
+    },
+    "it": {
+      "greeting": "Ciao,",
+      "body1": "Per reimpostare la password del tuo account Putcv.com, clicca sul link qui sotto.",
+      "body2": "Questo garantisce la sicurezza del tuo account e ripristina l'accesso ad esso.",
+      "linkContent": "REIMPOSTA PASSWORD",
+      "footer1": "Il link è valido per 1 ore.",
+      "footer2": "Se non completi il processo di reimpostazione entro questo periodo, richiedi un nuovo link di reimpostazione.",
+      "closing": "Il Team di Putcv.com"
+    }
+  },
+  "newResumeSubject": {
+    "tr": "Yeni CV'niz Başarıyla Oluşturuldu",
+    "en": "Your New Resume Has Been Successfully Created",
+    "es": "Tu Nuevo CV Ha Sido Creado Exitosamente",
+    "fr": "Votre Nouveau CV a Été Créé Avec Succès",
+    "de": "Ihr Neuer Lebenslauf Wurde Erfolgreich Erstellt",
+    "it": "Il Tuo Nuovo Curriculum è Stato Creato con Successo"
+  },
+  "newResumeContent": {
+    "tr": {
+      "greeting": "Merhaba,",
+      "body1": "başlıklı CV'niz başarıyla oluşturuldu.",
+      "body2": "CV'nizi dilediğiniz gibi düzenleyebilir, paylaşabilir ve profesyonel gelişiminiz için kullanabilirsiniz.",
+      "linkContent": "CV'nizi Görüntüleyin",
+      "footer1": "CV'nizi profesyonel bir şekilde geliştirmek için araçlarımızı kullanabilirsiniz.",
+      "footer2": "Yardım veya destek için, lütfen bizimle iletişime geçin.",
+      "closing": "Saygılarımızla, CV Oluşturma Ekibi"
+    },
+    "en": {
+      "greeting": "Hello,",
+      "body1": "Your resume titled has been successfully created.",
+      "body2": "You can now edit, share, and use your resume for professional development.",
+      "linkContent": "View Your Resume",
+      "footer1": "You can use our tools to enhance your resume professionally.",
+      "footer2": "For assistance or support, please contact us.",
+      "closing": "Best regards, The CV Creation Team"
+    },
+    "es": {
+      "greeting": "Hola,",
+      "body1": "Tu currículum titulado se ha creado con éxito.",
+      "body2": "Ahora puedes editarlo, compartirlo y usarlo para tu desarrollo profesional.",
+      "linkContent": "Ver tu currículum",
+      "footer1": "Puedes usar nuestras herramientas para mejorar tu currículum profesionalmente.",
+      "footer2": "Para asistencia o soporte, por favor contáctanos.",
+      "closing": "Atentamente, El equipo de creación de CV"
+    },
+    "fr": {
+      "greeting": "Bonjour,",
+      "body1": "Votre CV intitulé a été créé avec succès.",
+      "body2": "Vous pouvez maintenant le modifier, le partager et l'utiliser pour votre développement professionnel.",
+      "linkContent": "Voir votre CV",
+      "footer1": "Vous pouvez utiliser nos outils pour améliorer votre CV professionnellement.",
+      "footer2": "Pour toute assistance ou support, veuillez nous contacter.",
+      "closing": "Cordialement, L'équipe de création de CV"
+    },
+    "de": {
+      "greeting": "Hallo,",
+      "body1": "Ihr Lebenslauf mit dem Titel wurde erfolgreich erstellt.",
+      "body2": "Sie können Ihren Lebenslauf nun bearbeiten, teilen und für Ihre berufliche Entwicklung nutzen.",
+      "linkContent": "Lebenslauf anzeigen",
+      "footer1": "Sie können unsere Tools nutzen, um Ihren Lebenslauf professionell zu verbessern.",
+      "footer2": "Für Hilfe oder Unterstützung kontaktieren Sie uns bitte.",
+      "closing": "Mit freundlichen Grüßen, Das CV-Erstellungsteam"
+    },
+    "it": {
+      "greeting": "Ciao,",
+      "body1": "Il tuo curriculum intitolato è stato creato con successo.",
+      "body2": "Ora puoi modificarlo, condividerlo e usarlo per il tuo sviluppo professionale.",
+      "linkContent": "Visualizza il tuo curriculum",
+      "footer1": "Puoi utilizzare i nostri strumenti per migliorare il tuo curriculum in modo professionale.",
+      "footer2": "Per assistenza o supporto, contattaci.",
+      "closing": "Cordiali saluti, Il team di creazione CV"
+    }
+  },
+  "newCoverLetterSubject": {
+    "tr": "Yeni Ön Yazınız Başarıyla Oluşturuldu",
+    "en": "Your New Cover Letter Has Been Successfully Created",
+    "es": "Tu Nueva Carta de Presentación Ha Sido Creada Exitosamente",
+    "fr": "Votre Nouvelle Lettre de Motivation a Été Créée Avec Succès",
+    "de": "Ihr Neues Anschreiben Wurde Erfolgreich Erstellt",
+    "it": "La Tua Nuova Lettera di Presentazione è Stata Creata con Successo"
+  },
+  "newCoverLetterContent": {
+    "tr": {
+      "greeting": "Merhaba,",
+      "body1": "başlıklı ön yazınız başarıyla oluşturuldu.",
+      "body2": "Ön yazınızı dilediğiniz gibi düzenleyebilir, paylaşabilir ve profesyonel başvurularınız için kullanabilirsiniz.",
+      "linkContent": "Ön Yazınızı Görüntüleyin",
+      "footer1": "Ön yazınızı profesyonel bir şekilde geliştirmek için araçlarımızı kullanabilirsiniz.",
+      "footer2": "Yardım veya destek için, lütfen bizimle iletişime geçin.",
+      "closing": "Saygılarımızla, Ön Yazı Oluşturma Ekibi"
+    },
+    "en": {
+      "greeting": "Hello,",
+      "body1": "Your cover letter titled has been successfully created.",
+      "body2": "You can now edit, share, and use your cover letter for professional applications.",
+      "linkContent": "View Your Cover Letter",
+      "footer1": "You can use our tools to enhance your cover letter professionally.",
+      "footer2": "For assistance or support, please contact us.",
+      "closing": "Best regards, The Cover Letter Creation Team"
+    },
+    "es": {
+      "greeting": "Hola,",
+      "body1": "Tu carta de presentación titulada se ha creado con éxito.",
+      "body2": "Ahora puedes editarla, compartirla y usarla para tus solicitudes profesionales.",
+      "linkContent": "Ver tu carta de presentación",
+      "footer1": "Puedes usar nuestras herramientas para mejorar tu carta de presentación profesionalmente.",
+      "footer2": "Para asistencia o soporte, por favor contáctanos.",
+      "closing": "Atentamente, El equipo de creación de cartas de presentación"
+    },
+    "fr": {
+      "greeting": "Bonjour,",
+      "body1": "Votre lettre de motivation intitulée a été créée avec succès.",
+      "body2": "Vous pouvez maintenant la modifier, la partager et l'utiliser pour vos candidatures professionnelles.",
+      "linkContent": "Voir votre lettre de motivation",
+      "footer1": "Vous pouvez utiliser nos outils pour améliorer votre lettre de motivation professionnellement.",
+      "footer2": "Pour toute assistance ou support, veuillez nous contacter.",
+      "closing": "Cordialement, L'équipe de création de lettres de motivation"
+    },
+    "de": {
+      "greeting": "Hallo,",
+      "body1": "Ihr Anschreiben mit dem Titel wurde erfolgreich erstellt.",
+      "body2": "Sie können Ihr Anschreiben nun bearbeiten, teilen und für Ihre beruflichen Bewerbungen nutzen.",
+      "linkContent": "Anschreiben anzeigen",
+      "footer1": "Sie können unsere Tools nutzen, um Ihr Anschreiben professionell zu verbessern.",
+      "footer2": "Für Hilfe oder Unterstützung kontaktieren Sie uns bitte.",
+      "closing": "Mit freundlichen Grüßen, Das Anschreiben-Erstellungsteam"
+    },
+    "it": {
+      "greeting": "Ciao,",
+      "body1": "La tua lettera di presentazione intitolata è stata creata con successo.",
+      "body2": "Ora puoi modificarla, condividerla e usarla per le tue candidature professionali.",
+      "linkContent": "Visualizza la tua lettera di presentazione",
+      "footer1": "Puoi utilizzare i nostri strumenti per migliorare la tua lettera di presentazione in modo professionale.",
+      "footer2": "Per assistenza o supporto, contattaci.",
+      "closing": "Cordiali saluti, Il team di creazione lettere di presentazione"
+    }
+  },
+
+  "axample": {
+    "tr": "Örnek",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "de": "",
+    "it": ""
+  }
+}

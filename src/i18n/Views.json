@@ -1,0 +1,244 @@
+{
+  "global": {
+    "headerProduct": {
+      "tr": "Ürün",
+      "en": "Product",
+      "es": "Producto",
+      "fr": "Produit",
+      "de": "Produkt",
+      "it": "Prodotto"
+    },
+    "headerProductItems": {
+      "resume": {
+        "title": {
+          "tr": "Özgeçmiş",
+          "en": "Resume",
+          "es": "Currículum",
+          "fr": "CV",
+          "de": "Lebenslauf",
+          "it": "Curriculum Vitae"
+        },
+        "description": {
+          "tr": "Hayalindeki işi yakala!",
+          "en": "Catch your dream job!",
+          "es": "¡Atrapa el trabajo de tus sueños!",
+          "fr": "Attrapez le job de vos rêves !",
+          "de": "Erhalte deinen Traumjob!",
+          "it": "Ottieni il lavoro dei tuoi sogni!"
+        }
+      },
+      "coverLetter": {
+        "title": {
+          "tr": "Kapak Metni",
+          "en": "Cover Letter",
+          "es": "Carta de Presentación",
+          "fr": "Lettre de Motivation",
+          "de": "Anschreiben",
+          "it": "Lettera di Presentazione"
+        },
+        "description": {
+          "tr": "İşverenleri etkilemenin anahtarı!",
+          "en": "The key to impress employers!",
+          "es": "¡La clave para impresionar a los empleadores!",
+          "fr": "La clé pour impressionner les recruteurs !",
+          "de": "Der Schlüssel, um Arbeitgeber zu beeindrucken!",
+          "it": "La chiave per impressionare i datori di lavoro!"
+        }
+      },
+      "resignations": {
+        "title": {
+          "tr": "İstifa Dilekçesi",
+          "en": "Resignation Letter",
+          "es": "Carta de Renuncia",
+          "fr": "Lettre de Démission",
+          "de": "Kündigungsschreiben",
+          "it": "Lettera di Dimissioni"
+        },
+        "description": {
+          "tr": "Saygılı ve profesyonel vedalar.",
+          "en": "Respectful and professional farewells.",
+          "es": "Despedidas respetuosas y profesionales.",
+          "fr": "Adieux respectueux et professionnels.",
+          "de": "Respektvolle und professionelle Abschiede.",
+          "it": "Addii rispettosi e professionali."
+        }
+      }
+    },
+    "headerLogin": {
+      "tr": "Giriş",
+      "en": "Login",
+      "es": "Iniciar sesión",
+      "fr": "Connexion",
+      "de": "Anmelden",
+      "it": "Accedi"
+    },
+    "headerGetStart": {
+      "tr": "Ücretsiz başla",
+      "en": "Get Started Free",
+      "es": "Empieza Gratis",
+      "fr": "Commencez Gratuitement",
+      "de": "Kostenlos Starten",
+      "it": "Inizia Gratis"
+    },
+    "headerNavbarPrices": {
+      "tr": "Fiyatlar",
+      "en": "Prices",
+      "es": "Precios",
+      "fr": "Tarifs",
+      "de": "Preise",
+      "it": "Prezzi"
+    },
+    "headerNavbarFaq": {
+      "tr": "Sık Sorulan Sorular",
+      "en": "FAQ",
+      "es": "Preguntas Frecuentes",
+      "fr": "FAQ",
+      "de": "Häufige Fragen",
+      "it": "Domande Frequenti"
+    },
+    "headerNavbarBlog": {
+      "tr": "Blog",
+      "en": "Blog",
+      "es": "Blog",
+      "fr": "Blog",
+      "de": "Blog",
+      "it": "Blog"
+    }
+  },
+  "landingDefault": {
+    "pageTitle": {
+      "tr": "Be Resume - Ücretsiz ve Profesyonel Özgeçmiş Oluşturucu",
+      "en": "Be Resume - Create Professional CVs for Free",
+      "es": "Be Resume - Crea CV Profesionales Gratis",
+      "fr": "Be Resume - Créez des CV Professionnels Gratuitement",
+      "de": "Be Resume - Erstellen Sie kostenlose, professionelle Lebensläufe",
+      "it": "Be Resume - Crea Curriculum Professionali Gratuitamente"
+    },
+    "pageDescription": {
+      "tr": "Be Resume ile dakikalar içinde ücretsiz ve profesyonel bir özgeçmiş oluşturun. Modern şablonlar, kolay kullanım ve hızlı indirme seçenekleri ile iş başvurularınızı öne çıkarın.",
+      "en": "Create a free and professional resume in minutes with Be Resume. Modern templates, user-friendly design, and quick download options to make your job applications stand out.",
+      "es": "Crea un currículum profesional y gratuito en minutos con Be Resume. Plantillas modernas, diseño fácil de usar y opciones de descarga rápida para destacar tus solicitudes de empleo.",
+      "fr": "Créez un CV professionnel et gratuit en quelques minutes avec Be Resume. Modèles modernes, conception conviviale et options de téléchargement rapide pour faire ressortir vos candidatures.",
+      "de": "Erstellen Sie in wenigen Minuten einen kostenlosen und professionellen Lebenslauf mit Be Resume. Moderne Vorlagen, benutzerfreundliches Design und schnelle Download-Optionen, um Ihre Bewerbungen hervorzuheben.",
+      "it": "Crea un curriculum gratuito e professionale in pochi minuti con Be Resume. Modelli moderni, design intuitivo e opzioni di download rapido per distinguere le tue candidature."
+    },
+    "pageKeywords": {
+      "tr": "CV oluşturucu, Özgeçmiş oluşturucu, Ücretsiz CV oluşturma, Profesyonel CV, Kapak metni oluşturucu, İstifa mektubu şablonu, İş başvurusu",
+      "en": "Resume builder, Free CV maker, Professional resumes, Cover letter creator, Job application tool, Resignation letter template",
+      "es": "Creador de currículums, CV gratuito, Currículums profesionales, Creador de cartas de presentación, Solicitud de empleo, Plantilla de carta de renuncia",
+      "fr": "Créateur de CV, CV gratuit, CV professionnels, Générateur de lettres de motivation, Outil de candidature, Modèle de lettre de démission",
+      "de": "Lebenslaufersteller, Kostenloser Lebenslauf, Professionelle Lebensläufe, Anschreiben-Generator, Bewerbungswerkzeug, Kündigungsschreiben-Vorlage",
+      "it": "Creatore di curriculum, CV gratuito, Curriculum professionali, Generatore di lettere di presentazione, Strumento di candidatura, Modello di lettera di dimissioni"
+    },
+    "heroBadge": {
+      "tr": "Ücretsiz özgeçmiş oluşturucu",
+      "en": "Free Resume Builder",
+      "es": "Creador de CV Gratuito",
+      "fr": "Créateur de CV Gratuit",
+      "de": "Kostenloser Lebenslauf-Generator",
+      "it": "Creatore di CV Gratuito"
+    },
+    "heroTitle": {
+      "tr": "Başarı Hikayenizi <br /><span>Be Resume</span> ile Yazın!",
+      "en": "Write Your Success Story <br />with <span>Be Resume</span>!",
+      "es": "Escribe tu Historia de Éxito <br />con <span>Be Resume</span>!",
+      "fr": "Écrivez Votre Histoire de Réussite <br />avec <span>Be Resume</span>!",
+      "de": "Schreiben Sie Ihre Erfolgsgeschichte <br />mit <span>Be Resume</span>!",
+      "it": "Scrivi la Tua Storia di Successo <br />con <span>Be Resume</span>!"
+    },
+    "heroDescription": {
+      "tr": "Be Resume, iş başvurularınızı bir üst seviyeye taşıyor. Hedeflerinizi gerçekleştirmek için profesyonelce tasarlanmış, modern ve etkileyici özgeçmişlere şimdi ulaşın. İş dünyasında fark yaratmak sizin elinizde.",
+      "en": "Be Resume takes your job applications to the next level. Access professionally designed, modern, and impactful resumes to achieve your goals. Stand out in the business world today.",
+      "es": "Be Resume lleva tus solicitudes de empleo al siguiente nivel. Accede a currículums diseñados profesionalmente, modernos e impactantes para alcanzar tus objetivos. Destácate en el mundo laboral hoy mismo.",
+      "fr": "Be Resume élève vos candidatures à un niveau supérieur. Accédez à des CV conçus professionnellement, modernes et percutants pour atteindre vos objectifs. Faites la différence dans le monde du travail dès aujourd'hui.",
+      "de": "Be Resume bringt Ihre Bewerbungen auf die nächste Stufe. Greifen Sie auf professionell gestaltete, moderne und eindrucksvolle Lebensläufe zu, um Ihre Ziele zu erreichen. Heben Sie sich noch heute in der Geschäftswelt hervor.",
+      "it": "Be Resume porta le tue candidature al livello successivo. Accedi a curriculum professionali, moderni e d'impatto per raggiungere i tuoi obiettivi. Distinguiti nel mondo del lavoro oggi stesso."
+    },
+    "heroStartButton": {
+      "tr": "Hemen Başla",
+      "en": "Get Started",
+      "es": "Comenzar",
+      "fr": "Commencer",
+      "de": "Jetzt starten",
+      "it": "Inizia ora"
+    }
+  },
+  "landingFeatures": {
+    "pageTitle": {
+      "tr": "Be Resume Özellikleri - Profesyonel Özgeçmiş Oluşturma Araçları",
+      "en": "Be Resume Features - Professional Resume Creation Tools",
+      "es": "Características de Be Resume - Herramientas de Creación de Currículums Profesionales",
+      "fr": "Fonctionnalités de Be Resume - Outils de Création de CV Professionnels",
+      "de": "Be Resume Funktionen - Tools zur Erstellung professioneller Lebensläufe",
+      "it": "Funzionalità di Be Resume - Strumenti per Creare Curriculum Professionali"
+    },
+    "pageDescription": {
+      "tr": "Be Resume, kullanıcı dostu arayüzü ve modern tasarım şablonları ile etkileyici özgeçmişler hazırlamanızı sağlar. Hızlı düzenleme, farklı dil seçenekleri ve indirme kolaylığı ile profesyonel bir deneyim sunar.",
+      "en": "Be Resume offers a user-friendly interface and modern templates to create stunning resumes. Enjoy quick editing, multiple language options, and easy downloads for a professional experience.",
+      "es": "Be Resume ofrece una interfaz fácil de usar y plantillas modernas para crear currículums impresionantes. Disfruta de edición rápida, opciones de múltiples idiomas y descargas sencillas para una experiencia profesional.",
+      "fr": "Be Resume propose une interface conviviale et des modèles modernes pour créer des CV impressionnants. Profitez d'une édition rapide, de plusieurs options linguistiques et de téléchargements faciles pour une expérience professionnelle.",
+      "de": "Be Resume bietet eine benutzerfreundliche Oberfläche und moderne Vorlagen, um beeindruckende Lebensläufe zu erstellen. Genießen Sie schnelles Bearbeiten, mehrere Sprachoptionen und einfache Downloads für ein professionelles Erlebnis.",
+      "it": "Be Resume offre un'interfaccia intuitiva e modelli moderni per creare curriculum eccezionali. Approfitta di modifiche rapide, opzioni multilingue e download facili per un'esperienza professionale."
+    },
+    "pageKeywords": {
+      "tr": "Özgeçmiş özellikleri, Modern şablonlar, Kullanıcı dostu arayüz, Farklı diller, Hızlı indirme, CV düzenleme",
+      "en": "Resume features, Modern templates, User-friendly interface, Multiple languages, Quick download, Resume editing",
+      "es": "Características del currículum, Plantillas modernas, Interfaz fácil de usar, Múltiples idiomas, Descarga rápida, Edición de currículums",
+      "fr": "Caractéristiques du CV, Modèles modernes, Interface conviviale, Plusieurs langues, Téléchargement rapide, Édition de CV",
+      "de": "Lebenslauf-Funktionen, Moderne Vorlagen, Benutzerfreundliche Oberfläche, Mehrere Sprachen, Schneller Download, Lebenslauf-Bearbeitung",
+      "it": "Caratteristiche del curriculum, Modelli moderni, Interfaccia intuitiva, Lingue multiple, Download rapido, Modifica del curriculum"
+    }
+  },
+  "landingPrices": {
+    "pageTitle": {
+      "tr": "Be Resume - Uygun Fiyatlarla Profesyonel CV Paketleri",
+      "en": "Be Resume - Affordable Professional CV Packages",
+      "es": "Be Resume - Paquetes Profesionales de Currículums a Precios Asequibles",
+      "fr": "Be Resume - Forfaits CV Professionnels à Prix Abordables",
+      "de": "Be Resume - Preiswerte professionelle Lebenslaufpakete",
+      "it": "Be Resume - Pacchetti di CV Professionali a Prezzi Accessibili"
+    },
+    "pageDescription": {
+      "tr": "Be Resume'in sunduğu ücretsiz ve premium paketlerle özgeçmişinizi daha da güçlendirin. Özel şablonlar, sınırsız indirme ve detaylı düzenleme seçenekleri sizi bekliyor.",
+      "en": "Enhance your resume with Be Resume's free and premium packages. Enjoy exclusive templates, unlimited downloads, and advanced editing options.",
+      "es": "Mejora tu currículum con los paquetes gratuitos y premium de Be Resume. Disfruta de plantillas exclusivas, descargas ilimitadas y opciones de edición avanzada.",
+      "fr": "Améliorez votre CV avec les forfaits gratuits et premium de Be Resume. Profitez de modèles exclusifs, de téléchargements illimités et d'options de modification avancées.",
+      "de": "Verbessern Sie Ihren Lebenslauf mit den kostenlosen und Premium-Paketen von Be Resume. Exklusive Vorlagen, unbegrenzte Downloads und erweiterte Bearbeitungsoptionen warten auf Sie.",
+      "it": "Migliora il tuo curriculum con i pacchetti gratuiti e premium di Be Resume. Goditi modelli esclusivi, download illimitati e opzioni di modifica avanzate."
+    },
+    "pageKeywords": {
+      "tr": "Fiyatlar, CV paketleri, Ücretsiz CV oluşturma, Premium CV özellikleri, Özel şablonlar, Sınırsız indirme",
+      "en": "Pricing, CV packages, Free CV builder, Premium resume features, Exclusive templates, Unlimited downloads",
+      "es": "Precios, Paquetes de CV, Creador de currículums gratis, Funciones premium, Plantillas exclusivas, Descargas ilimitadas",
+      "fr": "Tarifs, Forfaits CV, Créateur de CV gratuit, Fonctionnalités premium, Modèles exclusifs, Téléchargements illimités",
+      "de": "Preise, Lebenslaufpakete, Kostenloser Lebenslaufersteller, Premium-Funktionen, Exklusive Vorlagen, Unbegrenzte Downloads",
+      "it": "Prezzi, Pacchetti di CV, Creatore di curriculum gratuito, Funzionalità premium, Modelli esclusivi, Download illimitati"
+    }
+  },
+  "notFound": {
+    "pageTitle": {
+      "tr": "Bu sayfa şu anda mevcut değil.",
+      "en": "This page is currently unavailable.",
+      "es": "Esta página no está disponible en este momento.",
+      "fr": "Cette page est actuellement indisponible.",
+      "de": "Diese Seite ist derzeit nicht verfügbar.",
+      "it": "Questa pagina non è attualmente disponibile."
+    },
+    "description": {
+      "tr": "Aradığınız sayfa kaldırılmış, taşınmış veya geçici olarak kullanılamıyor olabilir. Doğru bir URL kullandığınızdan emin olun veya ana sayfaya dönerek devam edin.",
+      "en": "The page you are looking for may have been removed, moved, or is temporarily unavailable. Please ensure you have entered the correct URL or return to the homepage to continue.",
+      "es": "La página que buscas puede haber sido eliminada, movida o no estar disponible temporalmente. Asegúrate de haber ingresado la URL correcta o vuelve a la página principal para continuar.",
+      "fr": "La page que vous recherchez a peut-être été supprimée, déplacée ou est temporairement indisponible. Veuillez vérifier que vous avez saisi la bonne URL ou revenez à la page d'accueil pour continuer.",
+      "de": "Die Seite, die Sie suchen, wurde möglicherweise entfernt, verschoben oder ist vorübergehend nicht verfügbar. Bitte überprüfen Sie die eingegebene URL oder kehren Sie zur Startseite zurück, um fortzufahren.",
+      "it": "La pagina che stai cercando potrebbe essere stata rimossa, spostata o non disponibile temporaneamente. Assicurati di aver inserito l'URL corretto o torna alla home page per continuare."
+    },
+    "backHome": {
+      "tr": "Ana sayfaya dön",
+      "en": "Back to Home",
+      "es": "Volver a la página principal",
+      "fr": "Retour à l'accueil",
+      "de": "Zurück zur Startseite",
+      "it": "Torna alla home"
+    }
+  }
+}

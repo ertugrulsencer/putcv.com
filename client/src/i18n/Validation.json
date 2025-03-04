@@ -1,0 +1,60 @@
+{
+  "register": {
+    "first_name.nonempty": {
+      "tr": "Ad gerekli.",
+      "en": "First name is required."
+    },
+    "last_name.nonempty": {
+      "tr": "Soyad gerekli.",
+      "en": "Last name is required."
+    },
+    "email.nonempty": {
+      "tr": "E-posta gerekli.",
+      "en": "E-mail is required."
+    },
+    "email.email": {
+      "tr": "Geçersiz e-posta.",
+      "en": "Invalid email."
+    },
+    "password.nonempty": {
+      "tr": "Şifre gerekli.",
+      "en": "Password is required."
+    },
+    "password.min": {
+      "tr": "Şifre en az 8 karakter olmalı.",
+      "en": "Password must be at least 8 characters."
+    },
+    "password_re.nonempty": {
+      "tr": "Şifre tekrar gerekli.",
+      "en": "Password re is required."
+    },
+    "password_re.min": {
+      "tr": "Şifre tekrar en az 8 karakter olmalı.",
+      "en": "Password re must be at least 8 characters."
+    },
+    "password_re.refine": {
+      "tr": "Şifreler eşleşmiyor.",
+      "en": "Passwords do not match."
+    }
+  },
+  "login": {
+    "email.nonempty": {
+      "tr": "E-posta gerekli.",
+      "en": "E-mail is required."
+    },
+    "email.email": {
+      "tr": "Geçersiz e-posta.",
+      "en": "Invalid email."
+    },
+    "password.nonempty": {
+      "tr": "Şifre gerekli.",
+      "en": "Password is required."
+    }
+  },
+  "create_resume": {
+    "title.nonempty": {
+      "tr": "Başlık gerekli.",
+      "en": "Title is required."
+    }
+  }
+}

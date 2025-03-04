@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="<%= i18nViews.notFound.pageTitle[language_key] %>">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Be Resume - <%= i18nViews.notFound.pageTitle[language_key] %>
+  </title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 15px 0 25px;
+      max-width: 720px;
+      line-height: 150%;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1rem;
+      color: white;
+      background-color: #007bff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #ffc107;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex">
+    <img src="/images/notfound.svg" alt="not-found" width="300" />
+    <h1>
+      <%= i18nViews.notFound.pageTitle[language_key] %>
+    </h1>
+    <p>
+      <%= i18nViews.notFound.description[language_key] %>
+    </p>
+    <a href="/<%= language_key %>">
+      <%= i18nViews.notFound.backHome[language_key] %>
+    </a>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+ALTER TABLE "plans" RENAME COLUMN "stripe_product_id" TO "stripe_price_id";

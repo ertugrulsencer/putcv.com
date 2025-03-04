@@ -1,0 +1,30 @@
+:root {
+  --color-dark: #252525;
+  --color-muted: #656565;
+  --color-gray: #e8e8e8;
+  --color-light: #f8f8f8;
+  --color-primary: #b4d60e;
+  --color-secondary: #141414;
+
+  --rgb-color-primary: 180, 214, 14;
+
+  --form-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.1);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

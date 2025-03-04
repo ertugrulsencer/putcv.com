@@ -1,0 +1,1824 @@
+{
+  "info": {},
+  "success": {},
+  "warning": {
+    "validation": {
+      "tr": "Lütfen tüm alanları eksiksiz doldurunuz.",
+      "en": "Please fill in all fields completely.",
+      "es": "Por favor, complete todos los campos completamente.",
+      "fr": "Veuillez remplir tous les champs complètement.",
+      "de": "Bitte füllen Sie alle Felder vollständig aus.",
+      "it": "Si prega di compilare tutti i campi completamente."
+    },
+    "headerRequired": {
+      "tr": "Bu işlemi gerçekleştirmek için lütfen oturum açınız.",
+      "en": "Please log in to proceed with this action.",
+      "es": "Por favor, inicie sesión para continuar con esta acción.",
+      "fr": "Veuillez vous connecter pour poursuivre cette action.",
+      "de": "Bitte melden Sie sich an, um fortzufahren.",
+      "it": "Effettua l'accesso per procedere con questa azione."
+    },
+    "accessTokenRequired": {
+      "tr": "Bu işlemi gerçekleştirmek için geçerli bir access token gereklidir. Lütfen oturum açınız.",
+      "en": "A valid access token is required to perform this action. Please log in.",
+      "es": "Se requiere un token de acceso válido para realizar esta acción. Por favor, inicie sesión.",
+      "fr": "Un jeton d'accès valide est requis pour effectuer cette action. Veuillez vous connecter.",
+      "de": "Ein gültiges Zugriffstoken ist erforderlich, um diese Aktion auszuführen. Bitte melden Sie sich an.",
+      "it": "È richiesto un token di accesso valido per eseguire questa azione. Effettua il login."
+    },
+    "expired": {
+      "tr": "Oturumunuzun süresi doldu, güvenliğiniz için tekrar giriş yapınız.",
+      "en": "Your session has expired, please log in again for your security.",
+      "es": "Tu sesión ha caducado, por favor inicia sesión de nuevo por tu seguridad.",
+      "fr": "Votre session a expiré, veuillez vous reconnecter pour votre sécurité.",
+      "de": "Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an, um Ihre Sicherheit zu gewährleisten.",
+      "it": "La tua sessione è scaduta, per favore accedi nuovamente per la tua sicurezza."
+    },
+    "tokenError": {
+      "tr": "Geçersiz anahtar, lütfen yeni bir bağlantı alın.",
+      "en": "Invalid key, please request a new link.",
+      "es": "Clave inválida, por favor solicite un nuevo enlace.",
+      "fr": "Clé invalide, veuillez demander un nouveau lien.",
+      "de": "Ungültiger Schlüssel, bitte fordern Sie einen neuen Link an.",
+      "it": "Chiave non valida, per favore richiedi un nuovo link."
+    },
+    "tokenAccountIdNotFound": {
+      "tr": "Hesap ID bulunamadı. Lütfen yeniden oturum açınız.",
+      "en": "Account ID not found. Please log in again.",
+      "es": "ID de cuenta no encontrado. Por favor, inicie sesión nuevamente.",
+      "fr": "ID de compte introuvable. Veuillez vous reconnecter.",
+      "de": "Konto-ID nicht gefunden. Bitte melden Sie sich erneut an.",
+      "it": "ID account non trovato. Effettua nuovamente il login."
+    },
+    "bannedAccount": {
+      "tr": "Hesabınız askıya alınmıştır. Daha fazla bilgi için lütfen destek ekibiyle iletişime geçin.",
+      "en": "Your account has been suspended. Please contact support for further assistance.",
+      "es": "Su cuenta ha sido suspendida. Por favor, póngase en contacto con el soporte para más ayuda.",
+      "fr": "Votre compte a été suspendu. Veuillez contacter le support pour plus d'assistance.",
+      "de": "Ihr Konto wurde gesperrt. Bitte wenden Sie sich an den Support für weitere Hilfe.",
+      "it": "Il tuo account è stato sospeso. Contatta il supporto per ulteriore assistenza."
+    }
+  },
+  "error": {
+    "rateLimit": {
+      "tr": "Güvenlik sistemimiz seni radarına aldı! Çok fazla istek gönderdiniz, lütfen {retry_after} saniye bekleyin.",
+      "en": "Our security system has flagged you! You've sent too many requests, please wait {retry_after} seconds.",
+      "es": "¡Nuestro sistema de seguridad te ha detectado! Has enviado demasiadas solicitudes, por favor espera {retry_after} segundos.",
+      "fr": "Notre système de sécurité vous a repéré ! Vous avez envoyé trop de requêtes, veuillez attendre {retry_after} secondes.",
+      "de": "Unser Sicherheitssystem hat Sie erkannt! Sie haben zu viele Anfragen gesendet, bitte warten Sie {retry_after} Sekunden.",
+      "it": "Il nostro sistema di sicurezza ti ha rilevato! Hai inviato troppe richieste, attendi {retry_after} secondi."
+    },
+    "general": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    },
+    "accountNotFound": {
+      "tr": "Hesap bulunamadı, lütfen tekrar deneyiniz.",
+      "en": "Account not found, please try again.",
+      "es": "Cuenta no encontrada, por favor intente de nuevo.",
+      "fr": "Compte introuvable, veuillez réessayer.",
+      "de": "Konto nicht gefunden, bitte versuchen Sie es erneut.",
+      "it": "Account non trovato, per favore riprova."
+    }
+  },
+  "account.register": {
+    "success": {
+      "tr": "Kaydınız başarıyla alınmıştır.",
+      "en": "Your registration has been successfully received.",
+      "es": "Su registro se ha recibido con éxito.",
+      "fr": "Votre inscription a été enregistrée avec succès.",
+      "de": "Ihre Registrierung wurde erfolgreich empfangen.",
+      "it": "La tua registrazione è stata ricevuta con successo."
+    },
+    "emailExists": {
+      "tr": "Bu e-posta adresi zaten kayıtlıdır, lütfen farklı bir adres kullanınız.",
+      "en": "This email address is already registered. Please use a different one.",
+      "es": "Esta dirección de correo electrónico ya está registrada. Por favor, utilice otra.",
+      "fr": "Cette adresse e-mail est déjà enregistrée. Veuillez en utiliser une autre.",
+      "de": "Diese E-Mail-Adresse ist bereits registriert. Bitte verwenden Sie eine andere.",
+      "it": "Questo indirizzo e-mail è già registrato. Si prega di utilizzarne un altro."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.verify": {
+    "success": {
+      "tr": "Hesabınız başarıyla doğrulandı.",
+      "en": "Your account has been successfully verified.",
+      "es": "Su cuenta ha sido verificada con éxito.",
+      "fr": "Votre compte a été vérifié avec succès.",
+      "de": "Ihr Konto wurde erfolgreich verifiziert.",
+      "it": "Il tuo account è stato verificato con successo."
+    },
+    "expired": {
+      "tr": "Doğrulama bağlantısının süresi doldu, lütfen yeni bir bağlantı alın.",
+      "en": "The verification link has expired, please request a new one.",
+      "es": "El enlace de verificación ha caducado, por favor solicite uno nuevo.",
+      "fr": "Le lien de vérification a expiré, veuillez en demander un nouveau.",
+      "de": "Der Bestätigungslink ist abgelaufen, bitte fordern Sie einen neuen an.",
+      "it": "Il link di verifica è scaduto, per favore richiedine uno nuovo."
+    },
+    "tokenError": {
+      "tr": "Geçersiz anahtar, lütfen yeni bir bağlantı alın.",
+      "en": "Invalid key, please request a new link.",
+      "es": "Clave inválida, por favor solicite un nuevo enlace.",
+      "fr": "Clé invalide, veuillez demander un nouveau lien.",
+      "de": "Ungültiger Schlüssel, bitte fordern Sie einen neuen Link an.",
+      "it": "Chiave non valida, per favore richiedi un nuovo link."
+    },
+    "accountNotFound": {
+      "tr": "Hesap bulunamadı, lütfen tekrar deneyiniz.",
+      "en": "Account not found, please try again.",
+      "es": "Cuenta no encontrada, por favor intente de nuevo.",
+      "fr": "Compte introuvable, veuillez réessayer.",
+      "de": "Konto nicht gefunden, bitte versuchen Sie es erneut.",
+      "it": "Account non trovato, per favore riprova."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.login": {
+    "invalidEmail": {
+      "tr": "E-posta adresiniz hatalı, lütfen tekrar deneyiniz.",
+      "en": "Your email address is incorrect, please try again.",
+      "es": "Su dirección de correo electrónico es incorrecta, por favor intente de nuevo.",
+      "fr": "Votre adresse e-mail est incorrecte, veuillez réessayer.",
+      "de": "Ihre E-Mail-Adresse ist falsch, bitte versuchen Sie es erneut.",
+      "it": "Il tuo indirizzo email è errato, riprova."
+    },
+    "invalidPassword": {
+      "tr": "Şifreniz hatalı, lütfen tekrar deneyiniz.",
+      "en": "Your password is incorrect, please try again.",
+      "es": "Su contraseña es incorrecta, por favor intente de nuevo.",
+      "fr": "Votre mot de passe est incorrect, veuillez réessayer.",
+      "de": "Ihr Passwort ist falsch, bitte versuchen Sie es erneut.",
+      "it": "La tua password è errata, riprova."
+    },
+    "tryGoogleAuth": {
+      "tr": "Kimlik doğrulama için lütfen Google ile giriş yapınız.",
+      "en": "Please log in with Google for authentication.",
+      "es": "Por favor, inicie sesión con Google para la autenticación.",
+      "fr": "Veuillez vous connecter avec Google pour l'authentification.",
+      "de": "Bitte melden Sie sich mit Google zur Authentifizierung an.",
+      "it": "Per favore, accedi con Google per l'autenticazione."
+    },
+    "bannedAccount": {
+      "tr": "Hesabınız askıya alınmıştır. Daha fazla bilgi için lütfen destek ekibiyle iletişime geçin.",
+      "en": "Your account has been suspended. Please contact support for further assistance.",
+      "es": "Su cuenta ha sido suspendida. Por favor, póngase en contacto con el soporte para más ayuda.",
+      "fr": "Votre compte a été suspendu. Veuillez contacter le support pour plus d'assistance.",
+      "de": "Ihr Konto wurde gesperrt. Bitte wenden Sie sich an den Support für weitere Hilfe.",
+      "it": "Il tuo account è stato sospeso. Contatta il supporto per ulteriore assistenza."
+    },
+    "success": {
+      "tr": "Tekrar hoş geldiniz, {full_name}.",
+      "en": "Welcome back, {full_name}.",
+      "es": "Bienvenido de nuevo, {full_name}.",
+      "fr": "Bon retour, {full_name}.",
+      "de": "Willkommen zurück, {full_name}.",
+      "it": "Bentornato, {full_name}."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.google_auth": {
+    "invalidToken": {
+      "tr": "Geçersiz Google anahtarı, lütfen tekrar deneyiniz.",
+      "en": "Invalid Google key, please try again.",
+      "es": "Clave de Google inválida, por favor intente de nuevo.",
+      "fr": "Clé Google invalide, veuillez réessayer.",
+      "de": "Ungültiger Google-Schlüssel, bitte versuchen Sie es erneut.",
+      "it": "Chiave Google non valida, riprova."
+    },
+    "bannedAccount": {
+      "tr": "Hesabınız askıya alınmıştır. Daha fazla bilgi için lütfen destek ekibiyle iletişime geçin.",
+      "en": "Your account has been suspended. Please contact support for further assistance.",
+      "es": "Su cuenta ha sido suspendida. Por favor, póngase en contacto con el soporte para más ayuda.",
+      "fr": "Votre compte a été suspendu. Veuillez contacter le support pour plus d'assistance.",
+      "de": "Ihr Konto wurde gesperrt. Bitte wenden Sie sich an den Support für weitere Hilfe.",
+      "it": "Il tuo account è stato sospeso. Contatta il supporto per ulteriore assistenza."
+    },
+    "success_login": {
+      "tr": "Tekrar hoş geldiniz, {full_name}.",
+      "en": "Welcome back, {full_name}.",
+      "es": "Bienvenido de nuevo, {full_name}.",
+      "fr": "Bon retour, {full_name}.",
+      "de": "Willkommen zurück, {full_name}.",
+      "it": "Bentornato, {full_name}."
+    },
+    "success_register": {
+      "tr": "Kaydınız başarıyla tamamlandı.",
+      "en": "Your registration was successful.",
+      "es": "Su registro fue exitoso.",
+      "fr": "Votre inscription a été réussie.",
+      "de": "Ihre Registrierung war erfolgreich.",
+      "it": "La tua registrazione è stata completata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.forgetPassword": {
+    "notFound": {
+      "tr": "Hesap bulunamadı, lütfen tekrar deneyiniz.",
+      "en": "Account not found, please try again.",
+      "es": "Cuenta no encontrada, por favor intente de nuevo.",
+      "fr": "Compte introuvable, veuillez réessayer.",
+      "de": "Konto nicht gefunden, bitte versuchen Sie es erneut.",
+      "it": "Account non trovato, per favore riprova."
+    },
+    "bannedAccount": {
+      "tr": "Hesabınız askıya alınmıştır. Daha fazla bilgi için lütfen destek ekibiyle iletişime geçin.",
+      "en": "Your account has been suspended. Please contact support for further assistance.",
+      "es": "Su cuenta ha sido suspendida. Por favor, póngase en contacto con el soporte para más ayuda.",
+      "fr": "Votre compte a été suspendu. Veuillez contacter le support pour plus d'assistance.",
+      "de": "Ihr Konto wurde gesperrt. Bitte wenden Sie sich an den Support für weitere Hilfe.",
+      "it": "Il tuo account è stato sospeso. Contatta il supporto per ulteriore assistenza."
+    },
+    "success": {
+      "tr": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi.",
+      "en": "The password reset link has been sent to your email address.",
+      "es": "El enlace para restablecer la contraseña ha sido enviado a tu dirección de correo electrónico.",
+      "fr": "Le lien de réinitialisation du mot de passe a été envoyé à votre adresse e-mail.",
+      "de": "Der Link zum Zurücksetzen des Passworts wurde an Ihre E-Mail-Adresse gesendet.",
+      "it": "Il link per reimpostare la password è stato inviato al tuo indirizzo email."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.resetPassword": {
+    "success": {
+      "tr": "Hesap şifreniz başarıyla sıfırlandı.",
+      "en": "Your account password has been successfully reset.",
+      "es": "La contraseña de tu cuenta ha sido restablecida con éxito.",
+      "fr": "Le mot de passe de votre compte a été réinitialisé avec succès.",
+      "de": "Das Passwort Ihres Kontos wurde erfolgreich zurückgesetzt.",
+      "it": "La password del tuo account è stata reimpostata con successo."
+    },
+    "expired": {
+      "tr": "Şifre sıfırlama bağlantısının süresi doldu, lütfen yeni bir bağlantı alın.",
+      "en": "The password reset link has expired, please request a new one.",
+      "es": "El enlace para restablecer la contraseña ha caducado, por favor solicite uno nuevo.",
+      "fr": "Le lien de réinitialisation du mot de passe a expiré, veuillez en demander un nouveau.",
+      "de": "Der Link zum Zurücksetzen des Passworts ist abgelaufen, bitte fordern Sie einen neuen an.",
+      "it": "Il link per reimpostare la password è scaduto, per favore richiedine uno nuovo."
+    },
+    "tokenError": {
+      "tr": "Geçersiz şifre sıfırlama anahtarı, lütfen yeni bir bağlantı alın.",
+      "en": "Invalid password reset key, please request a new link.",
+      "es": "Clave de restablecimiento de contraseña inválida, por favor solicite un nuevo enlace.",
+      "fr": "Clé de réinitialisation du mot de passe invalide, veuillez demander un nouveau lien.",
+      "de": "Ungültiger Schlüssel zum Zurücksetzen des Passworts, bitte fordern Sie einen neuen Link an.",
+      "it": "Chiave di reimpostazione della password non valida, per favore richiedi un nuovo link."
+    },
+    "accountNotFound": {
+      "tr": "Hesap bulunamadı, lütfen tekrar deneyiniz.",
+      "en": "Account not found, please try again.",
+      "es": "Cuenta no encontrada, por favor intente de nuevo.",
+      "fr": "Compte introuvable, veuillez réessayer.",
+      "de": "Konto nicht gefunden, bitte versuchen Sie es erneut.",
+      "it": "Account non trovato, per favore riprova."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.checkAuth": {
+    "success": {
+      "tr": "Oturum doğrulama başarılı.",
+      "en": "Session verification successful.",
+      "es": "Verificación de sesión exitosa.",
+      "fr": "Vérification de session réussie.",
+      "de": "Sitzungsverifizierung erfolgreich.",
+      "it": "Verifica della sessione riuscita."
+    }
+  },
+  "account.update": {
+    "success": {
+      "tr": "Bilgileriniz başarıyla güncellendi.",
+      "en": "Your information has been successfully updated.",
+      "es": "Su información se ha actualizado con éxito.",
+      "fr": "Vos informations ont été mises à jour avec succès.",
+      "de": "Ihre Informationen wurden erfolgreich aktualisiert.",
+      "it": "Le tue informazioni sono state aggiornate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "account.change_password": {
+    "invalidPassword": {
+      "tr": "Şifreniz hatalı, lütfen tekrar deneyiniz.",
+      "en": "Your password is incorrect, please try again.",
+      "es": "Su contraseña es incorrecta, por favor intente de nuevo.",
+      "fr": "Votre mot de passe est incorrect, veuillez réessayer.",
+      "de": "Ihr Passwort ist falsch, bitte versuchen Sie es erneut.",
+      "it": "La tua password è errata, riprova."
+    },
+    "success": {
+      "tr": "Şifreniz başarıyla güncellendi.",
+      "en": "Your password has been successfully updated.",
+      "es": "Su contraseña se ha actualizado con éxito.",
+      "fr": "Votre mot de passe a été mis à jour avec succès.",
+      "de": "Ihr Passwort wurde erfolgreich aktualisiert.",
+      "it": "La tua password è stata aggiornata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "resume.create": {
+    "verifyAccount": {
+      "tr": "Lütfen cv oluşturmak için hesabınızı doğrulayın.",
+      "en": "Please verify your account to create a resume.",
+      "es": "Por favor, verifique su cuenta para crear un CV.",
+      "fr": "Veuillez vérifier votre compte pour créer un CV.",
+      "de": "Bitte verifizieren Sie Ihr Konto, um einen Lebenslauf zu erstellen.",
+      "it": "Si prega di verificare il tuo account per creare un CV."
+    },
+    "success": {
+      "tr": "CV'niz başarıyla oluşturuldu.",
+      "en": "Your resume has been successfully created.",
+      "es": "Tu CV ha sido creado con éxito.",
+      "fr": "Votre CV a été créé avec succès.",
+      "de": "Ihr Lebenslauf wurde erfolgreich erstellt.",
+      "it": "Il tuo CV è stato creato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "resume.list": {
+    "success": {
+      "tr": "CV'ler başarıyla listelendi.",
+      "en": "Resumes have been successfully listed.",
+      "es": "Los CVs se han listado con éxito.",
+      "fr": "Les CV ont été listés avec succès.",
+      "de": "Lebensläufe wurden erfolgreich aufgelistet.",
+      "it": "I CV sono stati elencati con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "resume.detail": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "CV başarıyla bulundu.",
+      "en": "Resume found successfully.",
+      "es": "El CV se encontró con éxito.",
+      "fr": "Le CV a été trouvé avec succès.",
+      "de": "Lebenslauf erfolgreich gefunden.",
+      "it": "Il CV è stato trovato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "resume.update": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "CV başarıyla güncellendi.",
+      "en": "Resume found successfully.",
+      "es": "El CV se encontró con éxito.",
+      "fr": "Le CV a été trouvé avec succès.",
+      "de": "Lebenslauf erfolgreich gefunden.",
+      "it": "Il CV è stato trovato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "resume.delete": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "CV başarıyla silindi.",
+      "en": "The resume was deleted successfully.",
+      "es": "El CV se eliminó con éxito.",
+      "fr": "Le CV a été supprimé avec succès.",
+      "de": "Der Lebenslauf wurde erfolgreich gelöscht.",
+      "it": "Il CV è stato eliminato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "personal_informations.detail": {
+    "personalInformationsNotFound": {
+      "tr": "Kişisel bilgiler bulunamadı.",
+      "en": "Personal information not found.",
+      "es": "La información personal no se encontró.",
+      "fr": "Les informations personnelles sont introuvables.",
+      "de": "Persönliche Informationen nicht gefunden.",
+      "it": "Le informazioni personali non sono state trovate."
+    },
+    "success": {
+      "tr": "Kişisel bilgiler başarıyla bulundu.",
+      "en": "Personal information found successfully.",
+      "es": "La información personal se encontró con éxito.",
+      "fr": "Les informations personnelles ont été trouvées avec succès.",
+      "de": "Persönliche Informationen erfolgreich gefunden.",
+      "it": "Le informazioni personali sono state trovate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "personal_informations.update": {
+    "personalInformationsNotFound": {
+      "tr": "Kişisel bilgiler bulunamadı.",
+      "en": "Personal information not found.",
+      "es": "La información personal no se encontró.",
+      "fr": "Les informations personnelles sont introuvables.",
+      "de": "Persönliche Informationen nicht gefunden.",
+      "it": "Le informazioni personali non sono state trovate."
+    },
+    "success": {
+      "tr": "Kişisel bilgiler başarıyla güncellendi.",
+      "en": "Personal information updated successfully.",
+      "es": "La información personal se actualizó con éxito.",
+      "fr": "Les informations personnelles ont été mises à jour avec succès.",
+      "de": "Persönliche Informationen erfolgreich aktualisiert.",
+      "it": "Le informazioni personali sono state aggiornate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "experiences.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Deneyim başarıyla eklendi.",
+      "en": "Experience added successfully.",
+      "es": "La experiencia se añadió con éxito.",
+      "fr": "L'expérience a été ajoutée avec succès.",
+      "de": "Erfahrung erfolgreich hinzugefügt.",
+      "it": "L'esperienza è stata aggiunta con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "experiences.list": {
+    "success": {
+      "tr": "Deneyimler başarıyla listelendi.",
+      "en": "Experiences listed successfully.",
+      "es": "Las experiencias se listaron con éxito.",
+      "fr": "Les expériences ont été listées avec succès.",
+      "de": "Erfahrungen erfolgreich aufgelistet.",
+      "it": "Le esperienze sono state elencate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "experiences.detail": {
+    "experienceNotFound": {
+      "tr": "Deneyim bulunamadı.",
+      "en": "Experience not found.",
+      "es": "La experiencia no se encontró.",
+      "fr": "L'expérience est introuvable.",
+      "de": "Erfahrung nicht gefunden.",
+      "it": "L'esperienza non è stata trovata."
+    },
+    "success": {
+      "tr": "Deneyim başarıyla bulundu.",
+      "en": "Experience found successfully.",
+      "es": "La experiencia se encontró con éxito.",
+      "fr": "L'expérience a été trouvée avec succès.",
+      "de": "Erfahrung erfolgreich gefunden.",
+      "it": "L'esperienza è stata trovata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "experiences.update": {
+    "experienceNotFound": {
+      "tr": "Deneyim bulunamadı.",
+      "en": "Experience not found.",
+      "es": "La experiencia no se encontró.",
+      "fr": "L'expérience est introuvable.",
+      "de": "Erfahrung nicht gefunden.",
+      "it": "L'esperienza non è stata trovata."
+    },
+    "success": {
+      "tr": "Deneyim başarıyla güncellendi.",
+      "en": "Experience updated successfully.",
+      "es": "La experiencia se actualizó con éxito.",
+      "fr": "L'expérience a été mise à jour avec succès.",
+      "de": "Erfahrung erfolgreich aktualisiert.",
+      "it": "L'esperienza è stata aggiornata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "experiences.swap": {
+    "experienceNotFound": {
+      "tr": "Deneyim(ler) bulunamadı.",
+      "en": "Experience(s) could not be found.",
+      "es": "No se pudo encontrar la(s) experiencia(s).",
+      "fr": "L'expérience ou les expériences sont introuvables.",
+      "de": "Erfahrung(en) konnte(n) nicht gefunden werden.",
+      "it": "L'esperienza o le esperienze non sono state trovate."
+    },
+    "success": {
+      "tr": "Deneyim sıralaması başarıyla kaydedildi.",
+      "en": "Experience order saved successfully.",
+      "es": "El orden de las experiencias se guardó con éxito.",
+      "fr": "L'ordre des expériences a été enregistré avec succès.",
+      "de": "Die Erfahrungssortierung wurde erfolgreich gespeichert.",
+      "it": "L'ordine delle esperienze è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "experiences.delete": {
+    "experienceNotFound": {
+      "tr": "Deneyim bulunamadı.",
+      "en": "Experience not found.",
+      "es": "La experiencia no se encontró.",
+      "fr": "L'expérience est introuvable.",
+      "de": "Erfahrung nicht gefunden.",
+      "it": "L'esperienza non è stata trovata."
+    },
+    "success": {
+      "tr": "Deneyim başarıyla silindi.",
+      "en": "Experience deleted successfully.",
+      "es": "La experiencia se eliminó con éxito.",
+      "fr": "L'expérience a été supprimée avec succès.",
+      "de": "Erfahrung erfolgreich gelöscht.",
+      "it": "L'esperienza è stata eliminata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "educations.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Eğitim başarıyla eklendi.",
+      "en": "Education added successfully.",
+      "es": "La educación se añadió con éxito.",
+      "fr": "L'éducation a été ajoutée avec succès.",
+      "de": "Bildung erfolgreich hinzugefügt.",
+      "it": "L'educazione è stata aggiunta con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "educations.list": {
+    "success": {
+      "tr": "Eğitimler başarıyla listelendi.",
+      "en": "Educations listed successfully.",
+      "es": "Las educaciones se listaron con éxito.",
+      "fr": "Les éducations ont été listées avec succès.",
+      "de": "Bildungserfolge erfolgreich aufgelistet.",
+      "it": "Le educazioni sono state elencate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "educations.detail": {
+    "educationNotFound": {
+      "tr": "Eğitim bulunamadı.",
+      "en": "Education not found.",
+      "es": "La educación no se encontró.",
+      "fr": "L'éducation est introuvable.",
+      "de": "Bildung nicht gefunden.",
+      "it": "L'educazione non è stata trovata."
+    },
+    "success": {
+      "tr": "Eğitim başarıyla bulundu.",
+      "en": "Education found successfully.",
+      "es": "La educación se encontró con éxito.",
+      "fr": "L'éducation a été trouvée avec succès.",
+      "de": "Bildung erfolgreich gefunden.",
+      "it": "L'educazione è stata trovata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "educations.update": {
+    "educationNotFound": {
+      "tr": "Eğitim bulunamadı.",
+      "en": "Education not found.",
+      "es": "La educación no se encontró.",
+      "fr": "L'éducation est introuvable.",
+      "de": "Bildung nicht gefunden.",
+      "it": "L'educazione non è stata trovata."
+    },
+    "success": {
+      "tr": "Eğitim başarıyla güncellendi.",
+      "en": "Education updated successfully.",
+      "es": "La educación se actualizó con éxito.",
+      "fr": "L'éducation a été mise à jour avec succès.",
+      "de": "Bildung erfolgreich aktualisiert.",
+      "it": "L'educazione è stata aggiornata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "educations.swap": {
+    "educationNotFound": {
+      "tr": "Eğitim(ler) bulunamadı.",
+      "en": "Education(s) could not be found.",
+      "es": "No se pudo encontrar la(s) educación(es).",
+      "fr": "L'éducation ou les éducations sont introuvables.",
+      "de": "Bildung(en) konnte(n) nicht gefunden werden.",
+      "it": "L'educazione o le educazioni non sono state trovate."
+    },
+    "success": {
+      "tr": "Eğitim sıralaması başarıyla kaydedildi.",
+      "en": "Education order saved successfully.",
+      "es": "El orden de las educaciones se guardó con éxito.",
+      "fr": "L'ordre des éducations a été enregistré avec succès.",
+      "de": "Die Bildungssortierung wurde erfolgreich gespeichert.",
+      "it": "L'ordine delle educazioni è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "educations.delete": {
+    "educationNotFound": {
+      "tr": "Eğitim bulunamadı.",
+      "en": "Education not found.",
+      "es": "La educación no se encontró.",
+      "fr": "L'éducation est introuvable.",
+      "de": "Bildung nicht gefunden.",
+      "it": "L'educazione non è stata trovata."
+    },
+    "success": {
+      "tr": "Eğitim başarıyla silindi.",
+      "en": "Education deleted successfully.",
+      "es": "La educación se eliminó con éxito.",
+      "fr": "L'éducation a été supprimée avec succès.",
+      "de": "Bildung erfolgreich gelöscht.",
+      "it": "L'educazione è stata eliminata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "certificates.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Sertifika başarıyla eklendi.",
+      "en": "Certificate added successfully.",
+      "es": "El certificado se añadió con éxito.",
+      "fr": "Le certificat a été ajouté avec succès.",
+      "de": "Zertifikat erfolgreich hinzugefügt.",
+      "it": "Il certificato è stato aggiunto con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "certificates.list": {
+    "success": {
+      "tr": "Sertifikalar başarıyla listelendi.",
+      "en": "Certificates listed successfully.",
+      "es": "Los certificados se listaron con éxito.",
+      "fr": "Les certificats ont été listés avec succès.",
+      "de": "Zertifikate erfolgreich aufgelistet.",
+      "it": "I certificati sono stati elencati con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "certificates.detail": {
+    "certificateNotFound": {
+      "tr": "Sertifika bulunamadı.",
+      "en": "Certificate not found.",
+      "es": "El certificado no se encontró.",
+      "fr": "Le certificat est introuvable.",
+      "de": "Zertifikat nicht gefunden.",
+      "it": "Il certificato non è stato trovato."
+    },
+    "success": {
+      "tr": "Sertifika başarıyla bulundu.",
+      "en": "Certificate found successfully.",
+      "es": "El certificado se encontró con éxito.",
+      "fr": "Le certificat a été trouvé avec succès.",
+      "de": "Zertifikat erfolgreich gefunden.",
+      "it": "Il certificato è stato trovato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "certificates.update": {
+    "certificateNotFound": {
+      "tr": "Sertifika bulunamadı.",
+      "en": "Certificate not found.",
+      "es": "El certificado no se encontró.",
+      "fr": "Le certificat est introuvable.",
+      "de": "Zertifikat nicht gefunden.",
+      "it": "Il certificato non è stato trovato."
+    },
+    "success": {
+      "tr": "Sertifika başarıyla güncellendi.",
+      "en": "Certificate updated successfully.",
+      "es": "El certificado se actualizó con éxito.",
+      "fr": "Le certificat a été mis à jour avec succès.",
+      "de": "Zertifikat erfolgreich aktualisiert.",
+      "it": "Il certificato è stato aggiornato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "certificates.swap": {
+    "certificateNotFound": {
+      "tr": "Sertifika(lar) bulunamadı.",
+      "en": "Certificate(s) could not be found.",
+      "es": "No se pudo encontrar el/los certificado(s).",
+      "fr": "Le ou les certificats sont introuvables.",
+      "de": "Zertifikat(e) konnte(n) nicht gefunden werden.",
+      "it": "Il/i certificato/i non sono stati trovati."
+    },
+    "success": {
+      "tr": "Sertifika sıralaması başarıyla kaydedildi.",
+      "en": "Certificate order saved successfully.",
+      "es": "El orden de los certificados se guardó con éxito.",
+      "fr": "L'ordre des certificats a été enregistré avec succès.",
+      "de": "Die Zertifikatsortierung wurde erfolgreich gespeichert.",
+      "it": "L'ordine dei certificati è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "certificates.delete": {
+    "certificateNotFound": {
+      "tr": "Sertifika bulunamadı.",
+      "en": "Certificate not found.",
+      "es": "El certificado no se encontró.",
+      "fr": "Le certificat est introuvable.",
+      "de": "Zertifikat nicht gefunden.",
+      "it": "Il certificato non è stato trovato."
+    },
+    "success": {
+      "tr": "Sertifika başarıyla silindi.",
+      "en": "Certificate deleted successfully.",
+      "es": "El certificado se eliminó con éxito.",
+      "fr": "Le certificat a été supprimé avec succès.",
+      "de": "Zertifikat erfolgreich gelöscht.",
+      "it": "Il certificato è stato eliminato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "skills.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Yetenek başarıyla eklendi.",
+      "en": "Skill added successfully.",
+      "es": "La habilidad se añadió con éxito.",
+      "fr": "La compétence a été ajoutée avec succès.",
+      "de": "Fähigkeit erfolgreich hinzugefügt.",
+      "it": "La competenza è stata aggiunta con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "skills.list": {
+    "success": {
+      "tr": "Yetenekler başarıyla listelendi.",
+      "en": "Skills listed successfully.",
+      "es": "Las habilidades se listaron con éxito.",
+      "fr": "Les compétences ont été listées avec succès.",
+      "de": "Fähigkeiten erfolgreich aufgelistet.",
+      "it": "Le competenze sono state elencate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "skills.detail": {
+    "skillNotFound": {
+      "tr": "Yetenek bulunamadı.",
+      "en": "Skill not found.",
+      "es": "La habilidad no se encontró.",
+      "fr": "La compétence est introuvable.",
+      "de": "Fähigkeit nicht gefunden.",
+      "it": "La competenza non è stata trovata."
+    },
+    "success": {
+      "tr": "Yetenek başarıyla bulundu.",
+      "en": "Skill found successfully.",
+      "es": "La habilidad se encontró con éxito.",
+      "fr": "La compétence a été trouvée avec succès.",
+      "de": "Fähigkeit erfolgreich gefunden.",
+      "it": "La competenza è stata trovata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "skills.update": {
+    "skillNotFound": {
+      "tr": "Yetenek bulunamadı.",
+      "en": "Skill not found.",
+      "es": "La habilidad no se encontró.",
+      "fr": "La compétence est introuvable.",
+      "de": "Fähigkeit nicht gefunden.",
+      "it": "La competenza non è stata trovata."
+    },
+    "success": {
+      "tr": "Yetenek başarıyla güncellendi.",
+      "en": "Skill updated successfully.",
+      "es": "La habilidad se actualizó con éxito.",
+      "fr": "La compétence a été mise à jour avec succès.",
+      "de": "Fähigkeit erfolgreich aktualisiert.",
+      "it": "La competenza è stata aggiornata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "skills.swap": {
+    "skillNotFound": {
+      "tr": "Yetenek(ler) bulunamadı.",
+      "en": "Skill(s) could not be found.",
+      "es": "No se pudo encontrar la(s) habilidad(es).",
+      "fr": "La ou les compétences sont introuvables.",
+      "de": "Fähigkeit(en) konnte(n) nicht gefunden werden.",
+      "it": "La/le competenza/e non sono state trovate."
+    },
+    "success": {
+      "tr": "Yetenek sıralaması başarıyla kaydedildi.",
+      "en": "Skill order saved successfully.",
+      "es": "El orden de las habilidades se guardó con éxito.",
+      "fr": "L'ordre des compétences a été enregistré avec succès.",
+      "de": "Die Fähigkeitsreihenfolge wurde erfolgreich gespeichert.",
+      "it": "L'ordine delle competenze è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "skills.delete": {
+    "skillNotFound": {
+      "tr": "Yetenek bulunamadı.",
+      "en": "Skill not found.",
+      "es": "La habilidad no se encontró.",
+      "fr": "La compétence est introuvable.",
+      "de": "Fähigkeit nicht gefunden.",
+      "it": "La competenza non è stata trovata."
+    },
+    "success": {
+      "tr": "Yetenek başarıyla silindi.",
+      "en": "Skill deleted successfully.",
+      "es": "La habilidad se eliminó con éxito.",
+      "fr": "La compétence a été supprimée avec succès.",
+      "de": "Fähigkeit erfolgreich gelöscht.",
+      "it": "La competenza è stata eliminata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "langs.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Dil başarıyla eklendi.",
+      "en": "Language added successfully.",
+      "es": "El idioma se añadió con éxito.",
+      "fr": "La langue a été ajoutée avec succès.",
+      "de": "Sprache erfolgreich hinzugefügt.",
+      "it": "La lingua è stata aggiunta con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "langs.list": {
+    "success": {
+      "tr": "Diller başarıyla listelendi.",
+      "en": "Languages listed successfully.",
+      "es": "Los idiomas se listaron con éxito.",
+      "fr": "Les langues ont été listées avec succès.",
+      "de": "Sprachen erfolgreich aufgelistet.",
+      "it": "Le lingue sono state elencate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "langs.detail": {
+    "skillNotFound": {
+      "tr": "Dil bulunamadı.",
+      "en": "Language not found.",
+      "es": "El idioma no se encontró.",
+      "fr": "La langue est introuvable.",
+      "de": "Sprache nicht gefunden.",
+      "it": "La lingua non è stata trovata."
+    },
+    "success": {
+      "tr": "Dil başarıyla bulundu.",
+      "en": "Language found successfully.",
+      "es": "El idioma se encontró con éxito.",
+      "fr": "La langue a été trouvée avec succès.",
+      "de": "Sprache erfolgreich gefunden.",
+      "it": "La lingua è stata trovata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "langs.update": {
+    "skillNotFound": {
+      "tr": "Dil bulunamadı.",
+      "en": "Language not found.",
+      "es": "El idioma no se encontró.",
+      "fr": "La langue est introuvable.",
+      "de": "Sprache nicht gefunden.",
+      "it": "La lingua non è stata trovata."
+    },
+    "success": {
+      "tr": "Dil başarıyla güncellendi.",
+      "en": "Language updated successfully.",
+      "es": "El idioma se actualizó con éxito.",
+      "fr": "La langue a été mise à jour avec succès.",
+      "de": "Sprache erfolgreich aktualisiert.",
+      "it": "La lingua è stata aggiornata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "langs.swap": {
+    "skillNotFound": {
+      "tr": "Dil(ler) bulunamadı.",
+      "en": "Language(s) could not be found.",
+      "es": "No se pudo encontrar el/los idioma(s).",
+      "fr": "La ou les langues sont introuvables.",
+      "de": "Sprache(n) konnte(n) nicht gefunden werden.",
+      "it": "La/le lingua/e non sono state trovate."
+    },
+    "success": {
+      "tr": "Dil sıralaması başarıyla kaydedildi.",
+      "en": "Language order saved successfully.",
+      "es": "El orden de los idiomas se guardó con éxito.",
+      "fr": "L'ordre des langues a été enregistré avec succès.",
+      "de": "Die Sprachreihenfolge wurde erfolgreich gespeichert.",
+      "it": "L'ordine delle lingue è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "langs.delete": {
+    "skillNotFound": {
+      "tr": "Dil bulunamadı.",
+      "en": "Language not found.",
+      "es": "El idioma no se encontró.",
+      "fr": "La langue est introuvable.",
+      "de": "Sprache nicht gefunden.",
+      "it": "La lingua non è stata trovata."
+    },
+    "success": {
+      "tr": "Dil başarıyla silindi.",
+      "en": "Language deleted successfully.",
+      "es": "El idioma se eliminó con éxito.",
+      "fr": "La langue a été supprimée avec succès.",
+      "de": "Sprache erfolgreich gelöscht.",
+      "it": "La lingua è stata eliminata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "projects.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Proje başarıyla eklendi.",
+      "en": "Project added successfully.",
+      "es": "El proyecto se añadió con éxito.",
+      "fr": "Le projet a été ajouté avec succès.",
+      "de": "Projekt erfolgreich hinzugefügt.",
+      "it": "Il progetto è stato aggiunto con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "projects.list": {
+    "success": {
+      "tr": "Projeler başarıyla listelendi.",
+      "en": "Projects listed successfully.",
+      "es": "Los proyectos se listaron con éxito.",
+      "fr": "Les projets ont été listés avec succès.",
+      "de": "Projekte erfolgreich aufgelistet.",
+      "it": "I progetti sono stati elencati con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "projects.detail": {
+    "projectNotFound": {
+      "tr": "Proje bulunamadı.",
+      "en": "Project not found.",
+      "es": "El proyecto no se encontró.",
+      "fr": "Le projet est introuvable.",
+      "de": "Projekt nicht gefunden.",
+      "it": "Il progetto non è stato trovato."
+    },
+    "success": {
+      "tr": "Proje başarıyla bulundu.",
+      "en": "Project found successfully.",
+      "es": "El proyecto se encontró con éxito.",
+      "fr": "Le projet a été trouvé avec succès.",
+      "de": "Projekt erfolgreich gefunden.",
+      "it": "Il progetto è stato trovato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "projects.update": {
+    "projectNotFound": {
+      "tr": "Proje bulunamadı.",
+      "en": "Project not found.",
+      "es": "El proyecto no se encontró.",
+      "fr": "Le projet est introuvable.",
+      "de": "Projekt nicht gefunden.",
+      "it": "Il progetto non è stato trovato."
+    },
+    "success": {
+      "tr": "Proje başarıyla güncellendi.",
+      "en": "Project updated successfully.",
+      "es": "El proyecto se actualizó con éxito.",
+      "fr": "Le projet a été mis à jour avec succès.",
+      "de": "Projekt erfolgreich aktualisiert.",
+      "it": "Il progetto è stato aggiornato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "projects.swap": {
+    "projectNotFound": {
+      "tr": "Proje(ler) bulunamadı.",
+      "en": "Project(s) could not be found.",
+      "es": "No se pudo encontrar el/los proyecto(s).",
+      "fr": "Le(s) projet(s) est/sont introuvable(s).",
+      "de": "Projekt(e) konnte(n) nicht gefunden werden.",
+      "it": "Il/i progetto/i non è/sono stato/i trovato/i."
+    },
+    "success": {
+      "tr": "Proje sıralaması başarıyla kaydedildi.",
+      "en": "Project order saved successfully.",
+      "es": "El orden de los proyectos se guardó con éxito.",
+      "fr": "L'ordre des projets a été enregistré avec succès.",
+      "de": "Die Projektsortierung wurde erfolgreich gespeichert.",
+      "it": "L'ordine dei progetti è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "projects.delete": {
+    "projectNotFound": {
+      "tr": "Proje bulunamadı.",
+      "en": "Project not found.",
+      "es": "El proyecto no se encontró.",
+      "fr": "Le projet est introuvable.",
+      "de": "Projekt nicht gefunden.",
+      "it": "Il progetto non è stato trovato."
+    },
+    "success": {
+      "tr": "Proje başarıyla silindi.",
+      "en": "Project deleted successfully.",
+      "es": "El proyecto se eliminó con éxito.",
+      "fr": "Le projet a été supprimé avec succès.",
+      "de": "Projekt erfolgreich gelöscht.",
+      "it": "Il progetto è stato eliminato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "references.create": {
+    "resumeNotFound": {
+      "tr": "CV bulunamadı.",
+      "en": "Resume not found.",
+      "es": "El CV no se encontró.",
+      "fr": "Le CV est introuvable.",
+      "de": "Lebenslauf nicht gefunden.",
+      "it": "Il CV non è stato trovato."
+    },
+    "success": {
+      "tr": "Referans başarıyla eklendi.",
+      "en": "Reference added successfully.",
+      "es": "La referencia se añadió con éxito.",
+      "fr": "La référence a été ajoutée avec succès.",
+      "de": "Referenz erfolgreich hinzugefügt.",
+      "it": "Il riferimento è stato aggiunto con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "references.list": {
+    "success": {
+      "tr": "Referanslar başarıyla listelendi.",
+      "en": "References listed successfully.",
+      "es": "Las referencias se listaron con éxito.",
+      "fr": "Les références ont été listées avec succès.",
+      "de": "Referenzen erfolgreich aufgelistet.",
+      "it": "Le referenze sono state elencate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "references.detail": {
+    "referenceNotFound": {
+      "tr": "Referans bulunamadı.",
+      "en": "Reference not found.",
+      "es": "La referencia no se encontró.",
+      "fr": "La référence est introuvable.",
+      "de": "Referenz nicht gefunden.",
+      "it": "Il riferimento non è stato trovato."
+    },
+    "success": {
+      "tr": "Referans başarıyla bulundu.",
+      "en": "Reference found successfully.",
+      "es": "La referencia se encontró con éxito.",
+      "fr": "La référence a été trouvée avec succès.",
+      "de": "Referenz erfolgreich gefunden.",
+      "it": "Il riferimento è stato trovato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "references.update": {
+    "referenceNotFound": {
+      "tr": "Referans bulunamadı.",
+      "en": "Reference not found.",
+      "es": "La referencia no se encontró.",
+      "fr": "La référence est introuvable.",
+      "de": "Referenz nicht gefunden.",
+      "it": "Il riferimento non è stato trovato."
+    },
+    "success": {
+      "tr": "Referans başarıyla güncellendi.",
+      "en": "Reference updated successfully.",
+      "es": "La referencia se actualizó con éxito.",
+      "fr": "La référence a été mise à jour avec succès.",
+      "de": "Referenz erfolgreich aktualisiert.",
+      "it": "Il riferimento è stato aggiornato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "references.swap": {
+    "referenceNotFound": {
+      "tr": "Referans(lar) bulunamadı.",
+      "en": "Reference(s) could not be found.",
+      "es": "No se pudo encontrar la(s) referencia(s).",
+      "fr": "La/les référence(s) est/sont introuvable(s).",
+      "de": "Referenz(en) konnte(n) nicht gefunden werden.",
+      "it": "Il/i riferimento/i non è/sono stato/i trovato/i."
+    },
+    "success": {
+      "tr": "Referans sıralaması başarıyla kaydedildi.",
+      "en": "Reference order saved successfully.",
+      "es": "El orden de las referencias se guardó con éxito.",
+      "fr": "L'ordre des références a été enregistré avec succès.",
+      "de": "Die Referenzsortierung wurde erfolgreich gespeichert.",
+      "it": "L'ordine delle referenze è stato salvato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "references.delete": {
+    "referenceNotFound": {
+      "tr": "Referans bulunamadı.",
+      "en": "Reference not found.",
+      "es": "La referencia no se encontró.",
+      "fr": "La référence est introuvable.",
+      "de": "Referenz nicht gefunden.",
+      "it": "Il riferimento non è stato trovato."
+    },
+    "success": {
+      "tr": "Referans başarıyla silindi.",
+      "en": "Reference deleted successfully.",
+      "es": "La referencia se eliminó con éxito.",
+      "fr": "La référence a été supprimée avec succès.",
+      "de": "Referenz erfolgreich gelöscht.",
+      "it": "Il riferimento è stato eliminato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "templates.list": {
+    "success": {
+      "tr": "Şablonlar başarıyla listelendi.",
+      "en": "Templates listed successfully.",
+      "es": "Las plantillas se listaron con éxito.",
+      "fr": "Les modèles ont été listés avec succès.",
+      "de": "Vorlagen erfolgreich aufgelistet.",
+      "it": "I modelli sono stati elencati con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general issue occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor intente de nuevo.",
+      "fr": "Un problème général est survenu, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "subscriptions.subscribe": {
+    "existsPlan": {
+      "tr": "Mevcut aboneliğiniz bulunmaktadır!",
+      "en": "You already have an active subscription!",
+      "es": "¡Ya tienes una suscripción activa!",
+      "fr": "Vous avez déjà un abonnement actif !",
+      "de": "Sie haben bereits ein aktives Abonnement!",
+      "it": "Hai già un abbonamento attivo!"
+    },
+    "planNotFound": {
+      "tr": "Abonelik planı bulunamadı!",
+      "en": "Subscription plan not found!",
+      "es": "¡Plan de suscripción no encontrado!",
+      "fr": "Plan d'abonnement introuvable !",
+      "de": "Abonnementplan nicht gefunden!",
+      "it": "Piano di abbonamento non trovato!"
+    },
+    "success": {
+      "tr": "Abonelik oturumu başarıyla başlatıldı.",
+      "en": "The subscription session was successfully initiated.",
+      "es": "La sesión de suscripción se inició con éxito.",
+      "fr": "La session d'abonnement a été lancée avec succès.",
+      "de": "Die Abonnement-Sitzung wurde erfolgreich gestartet.",
+      "it": "La sessione di abbonamento è stata avviata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general problem occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor inténtelo de nuevo.",
+      "fr": "Un problème général s'est produit, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "subscriptions.upgrade_subscription": {
+    "subscriptionOrPlanNotFound": {
+      "tr": "Abonelik veya plan bulunamadı.",
+      "en": "Subscription or plan not found.",
+      "es": "Suscripción o plan no encontrado.",
+      "fr": "Abonnement ou plan introuvable.",
+      "de": "Abonnement oder Plan nicht gefunden.",
+      "it": "Abbonamento o piano non trovato."
+    },
+    "success": {
+      "tr": "Abonelik başarıyla güncellendi.",
+      "en": "The subscription was successfully updated.",
+      "es": "La suscripción se actualizó con éxito.",
+      "fr": "L'abonnement a été mis à jour avec succès.",
+      "de": "Das Abonnement wurde erfolgreich aktualisiert.",
+      "it": "L'abbonamento è stato aggiornato con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, lütfen tekrar deneyiniz.",
+      "en": "A general problem occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor inténtelo de nuevo.",
+      "fr": "Un problème général s'est produit, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "subscriptions.manage": {
+    "success": {
+      "tr": "Abonelik yönetim oturumu başarıyla başlatıldı.",
+      "en": "The subscription session was successfully initiated.",
+      "es": "La sesión de suscripción se inició con éxito.",
+      "fr": "La session d'abonnement a été lancée avec succès.",
+      "de": "Die Abonnement-Sitzung wurde erfolgreich gestartet.",
+      "it": "La sessione di abbonamento è stata avviata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, lütfen tekrar deneyiniz.",
+      "en": "A general problem occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor inténtelo de nuevo.",
+      "fr": "Un problème général s'est produit, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "subscriptions.plans": {
+    "success": {
+      "tr": "Abonelik planları başarıyla listelendi.",
+      "en": "Subscription plans were successfully listed.",
+      "es": "Los planes de suscripción se han listado con éxito.",
+      "fr": "Les plans d'abonnement ont été listés avec succès.",
+      "de": "Abonnementpläne wurden erfolgreich aufgelistet.",
+      "it": "I piani di abbonamento sono stati elencati con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, lütfen tekrar deneyiniz.",
+      "en": "A general problem occurred, please try again.",
+      "es": "Ocurrió un problema general, por favor inténtelo de nuevo.",
+      "fr": "Un problème général s'est produit, veuillez réessayer.",
+      "de": "Ein allgemeines Problem ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un problema generale, riprova."
+    }
+  },
+  "cover_letter.create": {
+    "verifyAccount": {
+      "tr": "Lütfen kapak mektubu oluşturmak için hesabınızı doğrulayın.",
+      "en": "Please verify your account to create a cover letter.",
+      "es": "Por favor, verifique su cuenta para crear una carta de presentación.",
+      "fr": "Veuillez vérifier votre compte pour créer une lettre de motivation.",
+      "de": "Bitte verifizieren Sie Ihr Konto, um ein Anschreiben zu erstellen.",
+      "it": "Si prega di verificare il tuo account per creare una lettera di presentazione."
+    },
+    "success": {
+      "tr": "Kapak mektubunuz başarıyla oluşturuldu.",
+      "en": "Your cover letter has been successfully created.",
+      "es": "Tu carta de presentación ha sido creada con éxito.",
+      "fr": "Votre lettre de motivation a été créée avec succès.",
+      "de": "Ihr Anschreiben wurde erfolgreich erstellt.",
+      "it": "La tua lettera di presentazione è stata creata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "cover_letter.list": {
+    "success": {
+      "tr": "Kapak mektupları başarıyla listelendi.",
+      "en": "Cover letters have been successfully listed.",
+      "es": "Las cartas de presentación se han listado con éxito.",
+      "fr": "Les lettres de motivation ont été listées avec succès.",
+      "de": "Anschreiben wurden erfolgreich aufgelistet.",
+      "it": "Le lettere di presentazione sono state elencate con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "cover_letter.detail": {
+    "coverLetterNotFound": {
+      "tr": "Kapak mektubu bulunamadı.",
+      "en": "Cover letter not found.",
+      "es": "La carta de presentación no se encontró.",
+      "fr": "La lettre de motivation est introuvable.",
+      "de": "Anschreiben nicht gefunden.",
+      "it": "La lettera di presentazione non è stata trovata."
+    },
+    "success": {
+      "tr": "Kapak mektubu başarıyla bulundu.",
+      "en": "Cover letter found successfully.",
+      "es": "La carta de presentación se encontró con éxito.",
+      "fr": "La lettre de motivation a été trouvée avec succès.",
+      "de": "Anschreiben erfolgreich gefunden.",
+      "it": "La lettera di presentazione è stata trovata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "cover_letter.update": {
+    "coverLetterNotFound": {
+      "tr": "Kapak mektubu bulunamadı.",
+      "en": "Cover letter not found.",
+      "es": "La carta de presentación no se encontró.",
+      "fr": "La lettre de motivation est introuvable.",
+      "de": "Anschreiben nicht gefunden.",
+      "it": "La lettera di presentazione non è stata trovata."
+    },
+    "success": {
+      "tr": "Kapak mektubu başarıyla güncellendi.",
+      "en": "Cover letter updated successfully.",
+      "es": "La carta de presentación se actualizó con éxito.",
+      "fr": "La lettre de motivation a été mise à jour avec succès.",
+      "de": "Anschreiben erfolgreich aktualisiert.",
+      "it": "La lettera di presentazione è stata aggiornata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  },
+  "cover_letter.delete": {
+    "coverLetterNotFound": {
+      "tr": "Kapak mektubu bulunamadı.",
+      "en": "Cover letter not found.",
+      "es": "La carta de presentación no se encontró.",
+      "fr": "La lettre de motivation est introuvable.",
+      "de": "Anschreiben nicht gefunden.",
+      "it": "La lettera di presentazione non è stata trovata."
+    },
+    "success": {
+      "tr": "Kapak mektubu başarıyla silindi.",
+      "en": "The cover letter was deleted successfully.",
+      "es": "La carta de presentación se eliminó con éxito.",
+      "fr": "La lettre de motivation a été supprimée avec succès.",
+      "de": "Das Anschreiben wurde erfolgreich gelöscht.",
+      "it": "La lettera di presentazione è stata eliminata con successo."
+    },
+    "error": {
+      "tr": "Genel bir sorun oluştu, tekrar deneyiniz.",
+      "en": "A general error occurred, please try again.",
+      "es": "Ocurrió un error general, por favor intente de nuevo.",
+      "fr": "Une erreur générale est survenue, veuillez réessayer.",
+      "de": "Ein allgemeiner Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "it": "Si è verificato un errore generale, riprova."
+    }
+  }
+}

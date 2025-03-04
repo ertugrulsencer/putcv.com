@@ -1,0 +1,83 @@
+<header class="header">
+  <div class="container">
+    <a href="/<%= language_key %>">
+      <img
+        src="<%= [1, 12].includes(new Date().getMonth() + 1) ? '/images/beresu.me.noel.svg' : '/images/beresu.me.svg' %>"
+        alt="beresume-logo" height="50">
+    </a>
+    <nav class="navigation">
+      <ul class="menu">
+        <li>
+          <div class="dropdown" id="product">
+            <div class="dropdown-btn" id="productBtn">
+              <%= i18n.global.headerProduct[language_key] %>
+                <i class="material-symbols-outlined icon">keyboard_arrow_down</i>
+            </div>
+            <ul class="list">
+              <% Object.keys(i18n.global.headerProductItems).forEach(item=> { %>
+                <li>
+                  <a href="/<%= language_key %>">
+                    <i class="material-symbols-outlined icon">assignment_add</i>
+                    <strong class="detail">
+                      <strong>
+                        <%= i18n.global.headerProductItems[item].title[language_key] %>
+                      </strong>
+                      <p>
+                        <%= i18n.global.headerProductItems[item].description[language_key] %>
+                      </p>
+                    </strong>
+                  </a>
+                </li>
+                <% }) %>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="<%= language_key %>/prices">
+            <%= i18n.global.headerNavbarPrices[language_key] %>
+          </a>
+        </li>
+        <li>
+          <a href="<%= language_key %>/sss">
+            <%= i18n.global.headerNavbarFaq[language_key] %>
+          </a>
+        </li>
+        <li>
+          <a href="<%= language_key %>/blog">
+            <%= i18n.global.headerNavbarBlog[language_key] %>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <div class="dropdown" id="changeLanguage">
+        <div class="dropdown-btn" id="changeLanguageBtn">
+          <img src="/images/flags/<%= language_key %>.svg" alt="<%= language_key %>" width="32" />
+          <i class="material-symbols-outlined icon">keyboard_arrow_down</i>
+        </div>
+        <ul class="list">
+          <% Object.keys(languages).forEach(key=> { %>
+            <% if(languages[key].id!==language_key) { %>
+              <li>
+                <a href="/<%= languages[key].id %>">
+                  <img src="/images/flags/<%= languages[key].id %>.svg" alt="<%= languages[key].id %>" width="32" />
+                  <strong>
+                    <%= languages[key].label %>
+                  </strong>
+                </a>
+              </li>
+              <% } %>
+                <% }) %>
+        </ul>
+      </div>
+      <a href="/app/login" class="btn btn-login">
+        <%= i18n.global.headerLogin[language_key] %>
+          <i class="material-symbols-outlined icon">key</i>
+      </a>
+      <a href="/app/register" class="btn">
+        <%= i18n.global.headerGetStart[language_key] %>
+          <i class="material-symbols-outlined icon">arrow_right_alt</i>
+      </a>
+    </div>
+  </div>
+</header>

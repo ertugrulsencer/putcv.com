@@ -1,0 +1,40 @@
+{
+  "type": "commonjs",
+  "name": "putcv.com",
+  "version": "1.0.0",
+  "description": "Basic CV builder with AI.",
+  "main": "server.js",
+  "repository": "https://github.com/ertugrulsencer/putcv.com.git",
+  "author": "Ertugrul Sencer Uzun",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.37.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1",
+    "stripe": "^17.4.0",
+    "zeromq": "^6.1.2"
+  },
+  "scripts": {
+    "server:start": "node server.js",
+    "server:dev": "node --watch server.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "mq:worker": "node ./src/mq/workers/email.js"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.29.1"
+  }
+}
